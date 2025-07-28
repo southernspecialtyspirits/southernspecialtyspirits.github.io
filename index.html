@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="canonical" href="https://southernspecialityspirits.com/" />
+    <meta http-equiv="refresh" content="0; url=https://southernspecialityspirits.com/" />
+    <title>Southern Speciality Spirits</title>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="hamburger" id="hamburger">
+        &#9776; <!-- Unicode for ☰ -->
+      </div>
+      <ul class="menu-bar" id="menu">
+        <li class="dropdown">
+          <a href="#">Our Brands</a>
+          <div class="dropdown-content">
+          <a href="1854reserve.html">1854 Reserve</a>
+          <a href="wheatbarley.html">Wheat Barley!</a>
+          </div>
+        </li>
+        <li><a href="buildyourown.html">Build Your Own</a></li>
+        <li class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="Logo" /></a>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="merch.html">Merch</a></li>
+      </ul>
+    </nav>
+    <div class="hero-image"></div>
+
+    <section class="info-section">
+      <div class="info-column mission">
+        <h2>Our Mission</h2>
+        <p>
+          Our mission is to craft premium, bespoke private label bourbons
+          tailored to our clients' unique identities, providing personalized,
+          high-quality products that elevate brands and foster lasting
+          partnerships.
+        </p>
+      </div>
+      <div class="info-column logo-text">
+        <h1>Southern Speciality Spirits</h1>
+        <p>Est. 2024</p>
+      </div>
+      <div class="info-column contact">
+        <h2>Contact Us</h2>
+        <p>
+          <a href="mailto:southernspecialtyspirits@gmail.com"
+            >southernspecialtyspirits@gmail.com</a
+          >
+        </p>
+        <br></br>
+        <p>864.918.1965</p>
+      </div>
+    </section>
+    <script>
+      const hamburger = document.getElementById('hamburger');
+      const menu = document.getElementById('menu');
+    
+      hamburger.addEventListener('click', () => {
+        menu.classList.toggle('show');
+      });
+    </script>
+  </body>
+</html>

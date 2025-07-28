@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/merch.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="canonical" href="https://southernspecialityspirits.com/merch.html"/>
+    <title>Merchandise - Southern Speciality Spirits</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="hamburger" id="hamburger">
+        &#9776;
+        <!-- Unicode for ☰ -->
+      </div>
+      <ul class="menu-bar" id="menu">
+        <li class="dropdown">
+          <a href="#">Our Brands</a>
+          <div class="dropdown-content">
+            <a href="1854reserve.html">1854 Reserve</a>
+            <a href="wheatbarley.html">Wheat Barley!</a>
+          </div>
+        </li>
+        <li><a href="buildyourown.html">Build Your Own</a></li>
+        <li class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="Logo" /></a>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="merch.html">Merch</a></li>
+      </ul>
+    </nav>
+    <div class="images">
+      <div class="image-container">
+        <img src="images/merch/polo.jpg" alt="1854 Polo" />
+      </div>
+      <div class="image-container">
+        <img src="images/merch/whitehat.jpg" alt="1854 white hat" />
+      </div>
+      <div class="image-container">
+        <img src="images/merch/greyhat.jpg" alt="1854 grey hat" />
+      </div>
+      <div class="image-container">
+        <img src="images/merch/yeti.jpg" alt="1854 Yeti" />
+      </div>
+      <div class="image-container">
+        <img
+          src="images/merch/greyhatwhiterope.jpg"
+          alt="1854 grey hat with white rope"
+        />
+      </div>
+      <div class="image-container">
+        <img src="images/merch/brownhat.jpg" alt="1854 brown hat" />
+      </div>
+      <div class="image-container">
+        <img src="images/merch/golfballs.jpg" alt="1854 golf balls" />
+      </div>
+      <div class="image-container">
+        <img src="images/merch/barrelhead.jpg" alt="1854 barrel head" />
+      </div>
+      <div class="image-container">
+        <img src="images/merch/glass.jpg" alt="1854 glass" />
+      </div>
+      <div class="image-container">
+        <p>
+          Interested? <br></br> Message us at <a href="tel:864-918-1965">864-918-1965</a> or email us at
+          <a href="mailto:southernspecialtyspirits@gmail.com"
+            >southernspecialtyspirits@gmail.com</a
+          >
+        </p>
+      </div>
+    </div>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const menu = document.getElementById("menu");
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+.grid-zigzag {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.grid-item.image img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+.grid-item.text {
+    flex-direction: column;
+    text-align: left;
+    color: #cd9a56;
+}
+  
+.grid-item.text h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+  
+.grid-item.text p {
+    font-size: 1.1rem;
+    color: #ddd;
+    line-height: 1.2;
+}
+.grid-item.text ul {
+    padding-left: 40px; /* Controls indentation */
+    margin-top: 20px;
+    color: #ddd; /* Sets text and bullet color */
+}
+
+.grid-item.text li {
+    margin-bottom: 10px;
+}
+
+.last-paragraph {
+    width: 80%;
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 40px auto; /* Center the paragraph with spacing */
+    padding: 30px 20px;
+    background-color: #1a1f3d; /* Add a subtle background color */
+    color: #ddd;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    text-align: center;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add a soft shadow for depth */
+    border: 1px solid #444; /* Add a border for definition */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .grid-zigzag {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-item {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .grid-item.text {
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="canonical"
+      href="https://southernspecialityspirits.com/about.html"
+    />
+    <title>About Us</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar">
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <ul class="menu-bar" id="menu">
+          <li class="dropdown">
+            <a href="#">Our Brands</a>
+            <div class="dropdown-content">
+              <a href="1854reserve.html">1854 Reserve</a>
+              <a href="wheatbarley.html">Wheat Barley!</a>
+            </div>
+          </li>
+          <li><a href="buildyourown.html">Build Your Own</a></li>
+          <li class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Logo" /></a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="merch.html">Merch</a></li>
+        </ul>
+      </nav>
+      <div class="grid-zigzag">
+        <div class="grid-item text">
+          <h2>Our Story</h2>
+          <p>
+            A rival school released a whiskey under their name. Garrett Steck
+            was intrigued by the idea and thought, why not Wofford College?
+            <br /><br />
+            A few months later with the help of Master Blender Dixon Dedman,
+            Steck launched 1854 Reserve, a private label bourbon, as a tribute
+            to his alma mater, Wofford College. 1854 Reserve was a resounding
+            success among Wofford alumni – all bottles for sale online
+            completely sold out within a week and a half.
+            <br /><br />
+            Steck decided to offer the excitement and engagement of private
+            label bourbon to additional passionate community groups through
+            Southern Specialty Spirits.
+          </p>
+        </div>
+        <div class="grid-item image">
+          <img
+            src="images/about/Garrett-and-Dixon.jpg"
+            alt="Founder Garret with his busienss partner"
+          />
+        </div>
+        <div class="grid-item image">
+          <img src="images/about/bottling.jpg" alt="Bottling Process" />
+        </div>
+        <div class="grid-item text">
+          <h2>What We Offer</h2>
+          <p>
+            Southern Specialty Spirits creates fully customized private label
+            bourbon, designed to align with your organization’s unique brand
+            identity and resonate with your customers:
+          </p>
+          <ul>
+            <li>
+              Exclusive, single-barrel bourbon available in a wide selection of
+              ages to suit your customers’ taste and budget preferences
+            </li>
+            <li>
+              Fully customized bottle and label design inspired by your brand
+            </li>
+            <li>
+              Premium features such as hand-dipped wax seals and hand-numbered
+              bottles, making each bottle a one-of-a-kind item
+            </li>
+            <li>Fundraising opportunities</li>
+          </ul>
+        </div>
+      </div>
+      <div class="last-paragraph">
+        <p>
+          At Southern Specialty Spirits, we’re passionate about premium spirits
+          and strengthening communities. To learn more about how we can partner
+          to create a unique brand opportunity and experience for your members,
+          <a href="buildyourown.html"> click here.</a>
+        </p>
+      </div>
+    </main>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const menu = document.getElementById("menu");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

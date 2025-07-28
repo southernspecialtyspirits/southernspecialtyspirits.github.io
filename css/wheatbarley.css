@@ -1,0 +1,12 @@
+.announcement {
+  text-align: center;
+  margin: 20px auto;
+  padding-top: 150px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.announcement h1 {
+  margin: 0;
+  font-weight: 700; /* Bold text */
+}
